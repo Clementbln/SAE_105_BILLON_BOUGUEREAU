@@ -13,5 +13,5 @@ for ligne in feuille.iter_rows(min_row=1, max_row=feuille.max_row, values_only=T
     # `ligne` = valeurs de chaque cellule dans la ligne
     print(ligne)
 
-# Fermer le classeur après avoir terminé
-classeur.close()
+
+classeur.close()  # Fermer le classeur
