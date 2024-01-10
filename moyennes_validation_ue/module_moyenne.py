@@ -8,7 +8,7 @@ def calcul_moyennes_notes_UE1_S1():
     resultat = {}
     emplacementcode = os.getcwd() #determine l'emplacement du script dans l'arboressence 
     dossier_UE1_S1 = os.path.dirname(os.path.dirname(emplacementcode))
-    dossier_UE1_S1 = os.path.join(dossier_UE1_S1, "SAE105" , "docs", "excel_notes" , "notes_S1" , "UE1.1") #permet d'acceder au fichier sur n'importe quelle pc
+    dossier_UE1_S1 = os.path.join(dossier_UE1_S1, "SAE105" , "data", "excel_notes" , "notes_S1" , "UE1.1") #permet d'acceder au fichier sur n'importe quelle pc
     num_files = 0
     for nomfichier in os.listdir(dossier_UE1_S1):
         if nomfichier.endswith(".xlsx"): #chereche TOUT les fichier en .xlsx du dossier et les charge 
@@ -41,7 +41,7 @@ def calcul_moyennes_notes_UE1_S1():
     resultat = {}
     emplacementcode = os.getcwd() #determine l'emplacement du script dans l'arboressence 
     dossier_UE1_S2 = os.path.dirname(os.path.dirname(emplacementcode))
-    dossier_UE1_S2 = os.path.join(dossier_UE1_S2, "SAE105" , "docs", "excel_notes" , "notes_S2" , "UE1") #permet d'acceder au fichier sur n'importe quelle pc
+    dossier_UE1_S2 = os.path.join(dossier_UE1_S2, "SAE105" , "data", "excel_notes" , "notes_S2" , "UE1") #permet d'acceder au fichier sur n'importe quelle pc
     num_files = 0
     for nomfichier in os.listdir(dossier_UE1_S2):
         if nomfichier.endswith(".xlsx"): #chereche TOUT les fichier en .xlsx du dossier et les charge 
@@ -92,7 +92,7 @@ def calcul_moyennes_notes_UE2_S1():
     resultat = {}
     emplacementcode = os.getcwd() #determine l'emplacement du script dans l'arboressence 
     dossier_UE2_S1 = os.path.dirname(os.path.dirname(emplacementcode))
-    dossier_UE2_S1 = os.path.join(dossier_UE2_S1, "SAE105" , "docs", "excel_notes" , "notes_S1" , "UE1.2") #permet d'acceder au fichier sur n'importe quelle pc
+    dossier_UE2_S1 = os.path.join(dossier_UE2_S1, "SAE105" , "data", "excel_notes" , "notes_S1" , "UE1.2") #permet d'acceder au fichier sur n'importe quelle pc
     num_files = 0
     for nomfichier in os.listdir(dossier_UE2_S1):
         if nomfichier.endswith(".xlsx"): #chereche TOUT les fichier en .xlsx du dossier et les charge 
@@ -125,7 +125,7 @@ def calcul_moyennes_notes_UE2_S1():
     resultat_UE2 = {}
     emplacementcode = os.getcwd() #determine l'emplacement du script dans l'arboressence 
     dossier_UE2_S2 = os.path.dirname(os.path.dirname(emplacementcode))
-    dossier_UE2_S2 = os.path.join(dossier_UE2_S2, "SAE105" , "docs", "excel_notes" , "notes_S2" , "UE2") #permet d'acceder au fichier sur n'importe quelle pc
+    dossier_UE2_S2 = os.path.join(dossier_UE2_S2, "SAE105" , "data", "excel_notes" , "notes_S2" , "UE2") #permet d'acceder au fichier sur n'importe quelle pc
     num_files = 0
     for nomfichier in os.listdir(dossier_UE2_S2):
         if nomfichier.endswith(".xlsx"): #chereche TOUT les fichier en .xlsx du dossier et les charge 
@@ -176,7 +176,7 @@ def calcul_moyennes_notes_UE3_S1():
     resultat = {}
     emplacementcode = os.getcwd() #determine l'emplacement du script dans l'arboressence 
     dossier_UE3_S1 = os.path.dirname(os.path.dirname(emplacementcode))
-    dossier_UE3_S1 = os.path.join(dossier_UE3_S1, "SAE105" , "docs", "excel_notes" , "notes_S1" , "UE1.3") #permet d'acceder au fichier sur n'importe quelle pc
+    dossier_UE3_S1 = os.path.join(dossier_UE3_S1, "SAE105" , "data", "excel_notes" , "notes_S1" , "UE1.3") #permet d'acceder au fichier sur n'importe quelle pc
     num_files = 0
     for nomfichier in os.listdir(dossier_UE3_S1):
         if nomfichier.endswith(".xlsx"): #chereche TOUT les fichier en .xlsx du dossier et les charge 
@@ -209,7 +209,7 @@ def calcul_moyennes_notes_UE3_S1():
     resultat_UE3 = {}
     emplacementcode = os.getcwd() #determine l'emplacement du script dans l'arboressence 
     dossier_UE3_S2 = os.path.dirname(os.path.dirname(emplacementcode))
-    dossier_UE3_S2 = os.path.join(dossier_UE3_S2, "SAE105" , "docs", "excel_notes" , "notes_S2" , "UE3") #permet d'acceder au fichier sur n'importe quelle pc
+    dossier_UE3_S2 = os.path.join(dossier_UE3_S2, "SAE105" , "data", "excel_notes" , "notes_S2" , "UE3") #permet d'acceder au fichier sur n'importe quelle pc
     num_files = 0
     for nomfichier in os.listdir(dossier_UE3_S2):
         if nomfichier.endswith(".xlsx"): #chereche TOUT les fichier en .xlsx du dossier et les charge 
