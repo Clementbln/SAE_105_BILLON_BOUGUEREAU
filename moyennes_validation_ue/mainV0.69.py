@@ -1,7 +1,7 @@
-from moyenne_UE1_S1 import calcul_moyennes_notes_UE1_S1
-from moyenne_UE1_S1 import calcul_moyennes_notes_UE2_S1
-from moyenne_UE1_S1 import calcul_moyennes_notes_UE3_S1
-from moyenne_UE1_S1 import generate_html_file
+from module_moyenne import calcul_moyennes_notes_UE1_S1
+from module_moyenne import calcul_moyennes_notes_UE2_S1
+from module_moyenne import calcul_moyennes_notes_UE3_S1
+from module_moyenne import generate_html_file
 
 # Appel de la fonction pour calculer les moyennes et générer le fichier HTML
 donnees_UE1, donnees_UE1_S2, resultat, data_rows_UE1 = calcul_moyennes_notes_UE1_S1()
