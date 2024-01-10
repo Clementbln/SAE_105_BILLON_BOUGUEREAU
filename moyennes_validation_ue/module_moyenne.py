@@ -263,28 +263,7 @@ def generate_html_file(file_name, title, column_titles,  column_titlesUE2 , colu
         <meta charset="utf8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SAE 105-Traiter des donnees</title>
-        <style>
-
-
-            body {{
-                font-family: 'Arial', sans-serif;
-            }}
-            h1 {{
-                color: #0066cc;
-            }}
-            table {{
-                border-collapse: collapse;
-                width: 100%;
-            }}
-            th, td {{
-                border: 1px solid #dddddd;
-                text-align: left;
-                padding: 8px;
-            }}
-            th {{
-                background-color: #f2f2f2;
-            }}
-        </style>
+ <link href="../html/global.css" rel="stylesheet">
     </head>
     <body>
         <h1>{title}</h1>
